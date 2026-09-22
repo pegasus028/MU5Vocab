@@ -17,6 +17,7 @@ MoneyMatters/
 ├── index.html        the whole app: layout, styles and engine
 ├── media.js          ← THE ONLY FILE YOU EDIT TO ADD PODCAST / VIDEO
 ├── README.md
+├── art/              the seven story illustrations
 └── data/
     ├── words.js      the 43 target items, fully defined
     ├── lexicon.js    231 clickable synonym / antonym entries
@@ -36,9 +37,9 @@ so nothing to deploy twice and no `/exec` endpoint to re-version.
 
 **📖 Storybook** — *Mikii’s Perfect Present*. Mikii changes her spending
 habits, budgets her allowance, shops around for her best friend’s birthday
-present and only just makes it home with the bus fare. Four chapters, eight
-page-turn pages. All 43 target items appear in it, highlighted in gold and
-tappable.
+present and only just makes it home with the bus fare. Four chapters, seven
+page-turn pages, each with its own illustration. All 43 target items appear in
+it, highlighted in gold and tappable.
 
 **📇 Word List** — all 43 items, grouped into the five areas the triage test
 diagnoses, filterable by type (word / idiom / phrasal verb), CEFR level and
@@ -137,9 +138,12 @@ antonyms either already exists in `data/lexicon.js` or is added there. A
 synonym with no lexicon entry is still displayed, just not clickable, so nothing
 breaks.
 
-**To add illustrations** — each page in `data/story.js` has an `img` field. Put
-a file path in it (`"art/ch1p1.jpg"`) and the image replaces the emoji panel.
-Leave it empty and the coloured panel with the emoji is used. The `tint` field
+**To change or replace an illustration** — every page in `data/story.js` has an
+`img` field pointing into `art/`, and an `alt` field describing the picture for
+screen readers. Drop a new file into `art/`, point `img` at it and update `alt`.
+Any shape works: the panel shows the whole image without cropping and fills the
+space around it with a blurred copy of the same picture. Clear the `img` field
+and the page falls back to a coloured panel with the emoji in `art`; `tint`
 takes `warm`, `cool` or `bright`.
 
 **To change a test question** — edit `data/tests.js`. `answer` is the index

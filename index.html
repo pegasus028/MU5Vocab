@@ -148,8 +148,16 @@ p.lede{color:var(--ink2);margin:0 0 18px;font-size:14.5px;max-width:60ch}
 }
 .art.cool{background:linear-gradient(145deg,#d6ecea,#bfe0dc)}
 .art.bright{background:linear-gradient(145deg,#fbdcd4,#f6c9bd)}
-.art img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
-.art .plate{position:absolute;bottom:10px;left:12px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:rgba(0,0,0,.42)}
+.art.hasimg{height:420px;padding:0;overflow:hidden;background:var(--line2);display:flex;align-items:center;justify-content:center}
+.art.hasimg .bg{
+  position:absolute;inset:-24px;width:calc(100% + 48px);height:calc(100% + 48px);
+  object-fit:cover;filter:blur(20px) saturate(.75);opacity:.6;
+}
+.art.hasimg .fg{
+  position:relative;z-index:1;max-height:100%;max-width:100%;
+  width:auto;height:auto;display:block;
+}
+.art .plate{position:absolute;z-index:2;bottom:10px;left:12px;font-size:11px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;color:rgba(0,0,0,.42)}
 .ptext{padding:22px 22px 8px;font-family:var(--serif);font-size:17.5px;line-height:1.72;color:var(--ink)}
 .ptext p{margin:0 0 15px}
 .kw{
@@ -385,6 +393,7 @@ footer.foot{border-top:1px solid var(--line);margin-top:40px;padding:20px 0 30px
 @media(max-width:520px){
   .ptext{font-size:16.5px;padding:18px 17px 6px}
   .art{height:132px;font-size:60px}
+  .art.hasimg{height:280px}
   h2.sec{font-size:22px}
   .score{font-size:46px}
 }
@@ -691,8 +700,11 @@ function drawStory(){
         Math.round(gotIn / chWords.size * 100) + '%"></i></div><span class="muted">' + gotIn + " / " + chWords.size + " words studied</span>" +
       (med.length ? med.map(m => '<span class="mediachip">' + MICON[m._kind] + " " + esc(m.title) + "</span>").join("") : "") +
       "</div></div>" +
-    '<div class="page"><div class="art ' + (page.tint || "warm") + '">' +
-      (page.img ? '<img src="' + esc(page.img) + '" alt="">' : esc(page.art || "📖")) +
+    '<div class="page"><div class="art ' + (page.tint || "warm") + (page.img ? " hasimg" : "") + '">' +
+      (page.img
+        ? '<img class="bg" src="' + esc(page.img) + '" alt="" aria-hidden="true">' +
+          '<img class="fg" src="' + esc(page.img) + '" alt="' + esc(page.alt || "") + '" loading="lazy">'
+        : esc(page.art || "📖")) +
       '<span class="plate">Chapter ' + ch.n + " · page " + (S.pg + 1) + "</span></div>" +
       '<div class="ptext">' + storyHTML(page.text) + "</div>" +
       '<div class="pnav"><button class="btn ghost sm" id="prevP"' + (S.ch === 0 && S.pg === 0 ? " disabled" : "") + '>◀ Prev</button>' +
