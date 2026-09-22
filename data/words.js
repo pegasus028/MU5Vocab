@@ -68,7 +68,7 @@ window.WORDS = [
   tip: "Never say 'a cash' or 'cashes'. Cash is uncountable: some cash, a lot of cash."
 },
 {
-  id: "coin", word: "coin", pos: "noun", cefr: "A2", group: "core", cluster: "banking", ch: 1,
+  id: "coin", word: "coin", pos: "noun", cefr: "A2", group: "core", cluster: "banking", ch: 3,
   def: "A small, round, flat piece of metal used as money.",
   ex: [
     "She counted out ten 10-baht coins for the ice cream.",
@@ -80,7 +80,7 @@ window.WORDS = [
   tip: "Coins are countable (three coins). Change is uncountable (some change)."
 },
 {
-  id: "change", word: "change", pos: "noun (uncountable)", cefr: "B1", group: "core", cluster: "banking", ch: 1,
+  id: "change", word: "change", pos: "noun (uncountable)", cefr: "B1", group: "core", cluster: "banking", ch: 3,
   def: "The money you get back when you pay more than the exact price; also the coins you carry around.",
   ex: [
     "The pie cost 45 baht, so she got 55 baht change from a hundred.",
@@ -92,7 +92,7 @@ window.WORDS = [
   tip: "'Keep the change' is a polite way of leaving a tip."
 },
 {
-  id: "card", word: "credit / debit card", pos: "noun", cefr: "B1", group: "core", cluster: "banking", ch: 1,
+  id: "card", word: "credit / debit card", pos: "noun", cefr: "B1", group: "core", cluster: "banking", ch: 3,
   def: "A card that lets you pay without cash. A debit card spends money you already have; a credit card borrows money you must pay back.",
   ex: [
     "Her father paid for the shoes with a credit card and regretted it for three months.",
@@ -104,7 +104,7 @@ window.WORDS = [
   tip: "DEBIT = your own money leaves now. CREDIT = the bank's money leaves now and you owe it."
 },
 {
-  id: "note", word: "(bank)note", pos: "noun", cefr: "B1", group: "core", cluster: "banking", ch: 1,
+  id: "note", word: "(bank)note", pos: "noun", cefr: "B1", group: "core", cluster: "banking", ch: 3,
   def: "A piece of paper money, such as a 100-baht note.",
   ex: [
     "He folded the 1,000-baht note and hid it inside his phone case.",
@@ -116,7 +116,7 @@ window.WORDS = [
   tip: "British English says note; American English says bill. Same object."
 },
 {
-  id: "swipe", word: "swipe", pos: "verb", cefr: "B2", group: "core", cluster: "banking", ch: 1,
+  id: "swipe", word: "swipe", pos: "verb", cefr: "B2", group: "core", cluster: "banking", ch: 3,
   def: "To pass a card through or across a machine so that the machine reads it and takes the payment.",
   ex: [
     "She swiped her card and the machine beeped twice.",
@@ -250,7 +250,7 @@ window.WORDS = [
   tip: "Shop around is the cure for getting ripped off. The two words are natural partners."
 },
 {
-  id: "cometo", word: "come to", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "value", ch: 2,
+  id: "cometo", word: "come to", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "value", ch: 3,
   def: "To add up to a total amount.",
   ex: [
     "That comes to 340 baht altogether.",
@@ -262,7 +262,7 @@ window.WORDS = [
   tip: "The classic shop question: 'How much does it come to?' Learn it as one whole chunk."
 },
 {
-  id: "purchase", word: "purchase", pos: "noun & verb", cefr: "B2", group: "core", cluster: "transaction", ch: 2,
+  id: "purchase", word: "purchase", pos: "noun & verb", cefr: "B2", group: "core", cluster: "transaction", ch: 3,
   def: "Something you buy, or the act of buying it — a more formal word than 'buy'.",
   ex: [
     "Keep the receipt for every purchase over 500 baht.",
@@ -274,7 +274,7 @@ window.WORDS = [
   tip: "Purchase is formal. Use it in writing and on signs; say 'buy' when you are talking."
 },
 {
-  id: "payment", word: "payment", pos: "noun", cefr: "B1", group: "core", cluster: "transaction", ch: 2,
+  id: "payment", word: "payment", pos: "noun", cefr: "B1", group: "core", cluster: "transaction", ch: 3,
   def: "An amount of money that is paid, or the act of paying it.",
   ex: [
     "The first payment is due at the end of the month.",
@@ -288,7 +288,7 @@ window.WORDS = [
 
 /* ---------- CLUSTER 3: spending — using it, wasting it, owing it ---------- */
 {
-  id: "afford", word: "afford", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 3,
+  id: "afford", word: "afford", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 2,
   def: "To have enough money to buy or do something.",
   ex: [
     "She saved for three months before she could afford the trainers.",
@@ -300,7 +300,7 @@ window.WORDS = [
   tip: "Afford almost always travels with CAN, CANNOT or COULD. And it takes TO + verb: afford to buy."
 },
 {
-  id: "spendon", word: "spend on", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 3,
+  id: "spendon", word: "spend on", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 4,
   def: "To use money to buy something, naming the thing you buy after 'on'.",
   ex: [
     "He spends most of his allowance on manga.",
@@ -312,7 +312,7 @@ window.WORDS = [
   tip: "Spend money ON a THING, but spend money DOING something: she spent 200 baht ON snacks; she spent an hour QUEUING."
 },
 {
-  id: "waste", word: "waste (money)", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 3,
+  id: "waste", word: "waste (money)", pos: "verb", cefr: "B1", group: "core", cluster: "spending", ch: 1,
   def: "To spend money on something useless, so the money brings you nothing at all.",
   ex: [
     "Do not waste your money on that game; it is free on the app store.",
@@ -324,7 +324,7 @@ window.WORDS = [
   tip: "Verb: he wasted money. Noun: it was a waste of money. Watch the change of form."
 },
 {
-  id: "splashout", word: "splash out", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "spending", ch: 3,
+  id: "splashout", word: "splash out", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "spending", ch: 4,
   def: "To spend a lot of money on something enjoyable that you do not really need.",
   ex: [
     "They splashed out on front-row seats for the concert.",
@@ -336,7 +336,7 @@ window.WORDS = [
   tip: "Splashing is what water does when thrown around freely. English imagines money as a liquid."
 },
 {
-  id: "fortune", word: "spend a fortune (on)", pos: "idiom", cefr: "B2", group: "idiom", cluster: "spending", ch: 3,
+  id: "fortune", word: "spend a fortune (on)", pos: "idiom", cefr: "B2", group: "idiom", cluster: "spending", ch: 2,
   def: "To spend a very large amount of money on something.",
   ex: [
     "Her brother spends a fortune on football boots every season.",
@@ -348,7 +348,7 @@ window.WORDS = [
   tip: "Three fortunes to learn: SPEND a fortune (you pay), COST a fortune (the thing is dear), MAKE a fortune (you get rich)."
 },
 {
-  id: "drain", word: "throw money down the drain", pos: "idiom", cefr: "B2", group: "idiom", cluster: "spending", ch: 3,
+  id: "drain", word: "throw money down the drain", pos: "idiom", cefr: "B2", group: "idiom", cluster: "spending", ch: 2,
   def: "To waste money completely, so that nothing useful comes back from it.",
   ex: [
     "Paying 500 baht a month for an app you never open is throwing money down the drain.",
@@ -360,7 +360,7 @@ window.WORDS = [
   tip: "Water down a drain is gone forever. That is the exact feeling: the money cannot come back."
 },
 {
-  id: "debt", word: "get into debt", pos: "verb phrase", cefr: "B2", group: "core", cluster: "spending", ch: 3,
+  id: "debt", word: "get into debt", pos: "verb phrase", cefr: "B2", group: "core", cluster: "spending", ch: 1,
   def: "To reach a situation where you owe money to somebody.",
   ex: [
     "He got into debt buying a phone he could not afford.",
@@ -372,7 +372,7 @@ window.WORDS = [
   tip: "The 'b' in debt is silent: /det/. English keeps the b only because Latin did."
 },
 {
-  id: "chipin", word: "chip in", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "spending", ch: 3,
+  id: "chipin", word: "chip in", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "spending", ch: 4,
   def: "To each give a small amount of money so that together you can pay for something.",
   ex: [
     "Twenty of us chipped in 50 baht each for the teacher's present.",
@@ -384,7 +384,7 @@ window.WORDS = [
   tip: "A 'chip' is a tiny broken piece. Everyone gives a tiny piece and the whole thing gets paid."
 },
 {
-  id: "payback", word: "pay back", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "spending", ch: 3,
+  id: "payback", word: "pay back", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "spending", ch: 4,
   def: "To return money that you borrowed from someone.",
   ex: [
     "I will pay you back on Friday when I get my allowance.",
@@ -434,7 +434,7 @@ window.WORDS = [
   tip: "Tax is the only money word here that you cannot refuse to pay."
 },
 {
-  id: "sellout", word: "sell out", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "transaction", ch: 4,
+  id: "sellout", word: "sell out", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "transaction", ch: 2,
   def: "To be sold completely, so that there is none left for anyone else to buy.",
   ex: [
     "The concert sold out in eleven minutes.",
@@ -460,7 +460,7 @@ window.WORDS = [
 
 /* ---------- CLUSTER 5: budget — planning and controlling ---------- */
 {
-  id: "budget", word: "budget", pos: "noun & verb", cefr: "B1", group: "core", cluster: "budget", ch: 4,
+  id: "budget", word: "budget", pos: "noun & verb", cefr: "B1", group: "core", cluster: "budget", ch: 1,
   def: "A plan showing how much money you have and how you will spend it.",
   ex: [
     "Their trip budget was 2,000 baht each, including food.",
@@ -472,7 +472,7 @@ window.WORDS = [
   tip: "You STICK TO a budget when you succeed and GO OVER it when you fail. Learn both."
 },
 {
-  id: "save", word: "save", pos: "verb", cefr: "B1", group: "core", cluster: "budget", ch: 4,
+  id: "save", word: "save", pos: "verb", cefr: "B1", group: "core", cluster: "budget", ch: 1,
   def: "To keep money instead of spending it, so that you can use it later.",
   ex: [
     "He saved for four months to buy the second-hand guitar.",
@@ -484,7 +484,7 @@ window.WORDS = [
   tip: "Save has two other lives: save a life, and save a file. Same word, three worlds."
 },
 {
-  id: "setaside", word: "set aside", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "budget", ch: 4,
+  id: "setaside", word: "set aside", pos: "phrasal verb", cefr: "B2", group: "phrasal", cluster: "budget", ch: 1,
   def: "To keep an amount of money separately for one particular purpose.",
   ex: [
     "She sets aside 100 baht every week for her sister's birthday present.",
@@ -496,7 +496,7 @@ window.WORDS = [
   tip: "Set aside is save with a PURPOSE attached. You always set money aside FOR something."
 },
 {
-  id: "spendinghabits", word: "spending habits", pos: "noun (plural)", cefr: "B2", group: "core", cluster: "budget", ch: 4,
+  id: "spendinghabits", word: "spending habits", pos: "noun (plural)", cefr: "B2", group: "core", cluster: "budget", ch: 1,
   def: "The usual way a person spends money, seen as a pattern over time.",
   ex: [
     "Her spending habits changed the day she started writing everything down.",
@@ -508,7 +508,7 @@ window.WORDS = [
   tip: "Almost always plural: spending habitS. One habit is a choice; habits are a personality."
 },
 {
-  id: "cutdown", word: "cut down (on)", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "budget", ch: 4,
+  id: "cutdown", word: "cut down (on)", pos: "phrasal verb", cefr: "B1", group: "phrasal", cluster: "budget", ch: 1,
   def: "To do, use or buy less of something, especially in order to spend less.",
   ex: [
     "He cut down on bubble tea and saved 400 baht in a month.",
@@ -532,7 +532,7 @@ window.WORDS = [
   tip: "Get by ON an amount: she got by ON 100 baht. Get by WITHOUT a thing."
 },
 {
-  id: "tightenbelt", word: "tighten your belt", pos: "idiom", cefr: "B2", group: "idiom", cluster: "budget", ch: 4,
+  id: "tightenbelt", word: "tighten your belt", pos: "idiom", cefr: "B2", group: "idiom", cluster: "budget", ch: 1,
   def: "To start spending less money than before, because you have less of it.",
   ex: [
     "After buying the phone, the whole family had to tighten their belts.",

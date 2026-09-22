@@ -34,11 +34,11 @@ so nothing to deploy twice and no `/exec` endpoint to re-version.
 
 ## What is in it
 
-**📖 Storybook** — *The Three Hundred Baht Problem*. Ploy, Mint and Bank buy a
-leaving present for their teacher, one of them overspends badly, and they dig
-their way out. Four chapters, twelve page-turn pages, set in Bangkok: BTS,
-7-Eleven, the night market, allowances, bubble tea, concert tickets. All 43
-target items appear in it, highlighted in gold and tappable.
+**📖 Storybook** — *Mikii’s Perfect Present*. Mikii changes her spending
+habits, budgets her allowance, shops around for her best friend’s birthday
+present and only just makes it home with the bus fare. Four chapters, eight
+page-turn pages. All 43 target items appear in it, highlighted in gold and
+tappable.
 
 **📇 Word List** — all 43 items, grouped into the five areas the triage test
 diagnoses, filterable by type (word / idiom / phrasal verb), CEFR level and
