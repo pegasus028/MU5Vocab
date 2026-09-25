@@ -18,6 +18,7 @@ MoneyMatters/
 ├── media.js          ← THE ONLY FILE YOU EDIT TO ADD PODCAST / VIDEO
 ├── README.md
 ├── art/              the seven story illustrations
+├── docs/             NotebookLM image and slide-deck protocols
 └── data/
     ├── words.js      the 43 target items, fully defined
     ├── lexicon.js    231 clickable synonym / antonym entries
@@ -35,7 +36,7 @@ so nothing to deploy twice and no `/exec` endpoint to re-version.
 
 ## What is in it
 
-**📖 Storybook** — *Mikii’s Perfect Present*. Mikii changes her spending
+**📖 Storybook** — *Mint’s Perfect Present*. Mint changes her spending
 habits, budgets her allowance, shops around for her best friend’s birthday
 present and only just makes it home with the bus fare. Four chapters, seven
 page-turn pages, each with its own illustration. All 43 target items appear in
